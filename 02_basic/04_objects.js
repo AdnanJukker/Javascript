@@ -52,5 +52,33 @@ console.log(user.hasOwnProperty('isLogged'));
 
 
 
+//object destructure
+const course = {
+    courseName : "js",
+    price :"free",
+    courseInstructor : "JohnDoe"
+}
+
+// course.courseInstructor
+
+const {courseInstructor : instructor} = course
+
+console.log(instructor);
+
+//JSON and APIs
+
+// {
+//     "name":"adnanjukker",
+//     "email":"blabvla@xyx.com",
+//     "link":"www.gggggs.com"
+// }
+
+[
+    {},
+    {},
+    {},
+]
+
+
 
 
