@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoM two</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+        <div class="day">Friday</div>
+        <div class="day">Saturday</div>
+    </div>
+</body>
+
+<script>
+    const prnt = document.querySelector('.parent')
+    console.log(prnt);
+    console.log(prnt.children);
+    // console.log(prnt.children[1].innerText);
+
+    for(let i = 0;i<=prnt.children.length;i++){
+        console.log(prnt.children[i].innerHTML);
+        
+    }
+    
+</script>
+</html>
